@@ -15,9 +15,12 @@ A modern, conversion-focused website for LeadForge Digital, a web development ag
 
 - **Home** (`index.html`): Hero section, benefits, services overview, case study preview, process, and CTA
 - **Services** (`services.html`): Detailed service offerings including business websites, lead-driven websites, and website care
+- **Pricing** (`pricing.html`): Transparent pricing packages and website care plans
 - **Financial Services** (`financial-services.html`): Specialized solutions for financial services and call centres
 - **Portfolio** (`portfolio.html`): Case studies including debt review call centre case study
 - **Contact** (`contact.html`): Multi-step lead form with POPIA compliance, WhatsApp integration, and contact information
+- **Privacy Policy** (`privacy-policy.html`): POPIA-compliant privacy policy
+- **404** (`404.html`): Custom error page
 
 ## Project Structure
 
@@ -80,12 +83,7 @@ A modern, conversion-focused website for LeadForge Digital, a web development ag
 
 1. Open `index.html` in a web browser
 2. All pages are static HTML - no build process required
-3. For production:
-   - Phone number: 069 494 2934 ✅
-   - WhatsApp: 27694942934 ✅
-   - EmailJS form submission: Configured and working ✅
-   - Add actual images for case studies and portfolio (optional)
-   - Configure analytics tracking (optional)
+3. Ready for deployment to Netlify or any static hosting provider
 
 ## Customization
 
@@ -96,11 +94,8 @@ Contact Information:
 - WhatsApp: 27694942934 (in `wa.me` links)
 
 ### Form Submission
-✅ **EmailJS is fully configured and working!**
-- Service ID: `service_x5v3inb`
-- Template ID: `template_0afp3r8`
-- Public Key: `FFqgZVVhZPJjaoTME`
-- Submissions send to: `leadforgedigital2026@gmail.com`
+- EmailJS integration configured
+- Contact form sends submissions via EmailJS
 
 ### Styling
 All styles are in `css/styles.css` using CSS variables for easy theming. Update the `:root` variables to change colors, spacing, etc.

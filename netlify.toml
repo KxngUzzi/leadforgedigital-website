@@ -31,6 +31,11 @@
   to = "/privacy-policy.html"
   status = 200
 
+[[redirects]]
+  from = "/pricing"
+  to = "/pricing.html"
+  status = 200
+
 # Redirect index to root
 [[redirects]]
   from = "/index.html"
