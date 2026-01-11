@@ -542,28 +542,16 @@ section {
     margin-bottom: var(--spacing-lg);
 }
 
-.pricing-features h3 {
-    font-size: 1rem;
-    font-weight: 600;
-    color: var(--color-dark);
-    margin-top: var(--spacing-md);
-    margin-bottom: var(--spacing-sm);
-}
-
-.pricing-features h3:first-child {
-    margin-top: 0;
-}
-
 .pricing-features ul {
     list-style: none;
     padding: 0;
-    margin-bottom: var(--spacing-md);
+    margin: 0;
 }
 
 .pricing-features ul li {
     padding-left: var(--spacing-md);
     position: relative;
-    margin-bottom: var(--spacing-xs);
+    margin-bottom: var(--spacing-sm);
     color: var(--color-text-light);
     line-height: 1.6;
 }
@@ -574,21 +562,6 @@ section {
     left: 0;
     color: var(--color-primary);
     font-weight: 700;
-}
-
-.pricing-features ul.not-included li::before {
-    content: '×';
-    color: var(--color-text-light);
-}
-
-.pricing-features ul.bonus li::before {
-    content: '★';
-    color: var(--color-primary);
-}
-
-.pricing-features ul.add-ons li::before {
-    content: '+';
-    color: var(--color-primary);
 }
 
 .pricing-cta {
