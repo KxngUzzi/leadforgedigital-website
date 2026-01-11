@@ -1482,6 +1482,18 @@ section {
     margin-bottom: var(--spacing-md);
 }
 
+.contact-method p a {
+    color: var(--color-primary);
+    font-weight: 600;
+    font-size: 1.0625rem;
+    text-decoration: none;
+}
+
+.contact-method p a:hover {
+    color: var(--color-primary-dark);
+    text-decoration: underline;
+}
+
 .contact-method .btn {
     width: 100%;
     margin-top: var(--spacing-xs);
